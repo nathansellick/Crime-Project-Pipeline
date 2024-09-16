@@ -27,3 +27,4 @@ This whole pipeline can be found in the python_crime_pipeline.py file
 ## Unit Testing
 The python_crime_pipeline.py file contained over 20 functions that were created to modify the dataframes I was working with in Pandas. As a result, I have a separate file in my main branch python_crime_unit_testing.py which tests the functions I used. I tested them using mock tests, fixture-based testing and a variety of other methods. 
  
+20 unit tests were ran in the end but there was not enough time to run tests for all functions that were in the pipeline.
