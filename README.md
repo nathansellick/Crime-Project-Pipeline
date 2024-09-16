@@ -11,14 +11,19 @@ My pipeline consisted of three layers being staging, primary and reporting. To b
 + Staging
     + Ingesting raw datasets downloaded
     + Concatenating all 96 csv files in 'Police crime dataset'
-    + Deleting unncessary columns
+    + Deleting unnecessary columns
     + Renaming columns
 + Primary
     + Ingesting staged csv's from previous layer
     + Merging dataframes
     + Categorising columns into groups e.g. crime type category
 + Reporting
-    + Creating a report showing burglaries + robberies per km^2 eahc month for all four counties
+    + Creating a report showing burglaries + robberies per km^2 each month for all four counties
     + Creating two separate reports detailing Essex and Kent's respective monthly figures varying from number of properties sold to property price for each month
     + Report showing the top 5 postcodes in Essex and Kent with the highest number of burglaries + robberies
+
+This whole pipeline can be found in the python_crime_pipeline.py file 
+
+## Unit Testing
+The python_crime_pipeline.py file contained over 20 functions that were created to modify the dataframes I was working with in Pandas. As a result, I have a separate file in my main branch python_crime_unit_testing.py which tests the functions I used. I tested them using mock tests, fixture-based testing and a variety of other methods. 
  
